@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> clone </title>
+    <meta name="viewport" content="'with-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="front.html" class="a"> <img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"> </i>
+                <ul>
+                    <li> <a href="">HOME</a></li>
+                    <li> <a href="">ABOUT</a></li>
+                    <li> <a href="">COURSE</a></li>
+                    <li> <a href="">BLOG</a></li>
+                    <li> <a href="">AYENEW</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text">
+            <h1> World's Best Univesity </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quod asp<br>delectus commodi fuga
+                natus, beatae ut omnis! Harum iusto eos
+                asperiores dolor!</p>
+            <a href="" class="btn"> Visit to know more</a>
+        </div>
+    </section>
+
+
+
+    <section class="course">
+        <h1> Courses we offer</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sunt et! </P>
+        </h1>
+
+        <div class="row">
+            <div class="course-col">
+                <h3> Beginner</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sunt et! </P>
+            </div>
+            <div class="course-col">
+                <h3> intermidiate</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sunt et! </P>
+            </div>
+            <div class="course-col">
+                <h3> Advanced</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sunt et! </P>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sunt et!</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png">
+                <div class="layer">
+                    <h3> London</h3>
+
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/newyork.png">
+                <div class="layer">
+                    <h3> NEWYORK</h3>
+
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.png">
+                <div class="layer">
+                    <h3> WASHINGTON</h3>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="Facilities">
+        <h1> Our Facilities</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sunt et! </P>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3> World Class library</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sunt et! </P>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3> Largest play ground</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sunt et! </P>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3> Tastey and healthy food </h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sunt et! </P>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <section class="Testimonials">
+        <h1> What Our Students Say </h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, sunt et! </P>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos maxime libero accusamus, error qui
+                        eveniet impedit asperiores reiciendis numquam eligendi consequatur deserunt officiis sed officia
+                        facilis. Placeat totam perspiciatis non.</P>
+                    <h3> Stacy Johannsen</h3>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/user2.jpg">
+                <div>
+                    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos maxime libero accusamus, error qui
+                        eveniet impedit asperiores reiciendis numquam eligendi consequatur deserunt officiis sed officia
+                        facilis. Placeat totam perspiciatis non.</P>
+                    <h3> Sheldon Kuper </h3>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <script>
+        var navLinks = documnet.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.clone.right = "0";
+        }
+        function hideMenu() {
+            navLinks.clone.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
